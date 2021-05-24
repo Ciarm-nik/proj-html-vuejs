@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+}
+
+section {
+    padding-top: $spacing * 3;
+    padding-bottom: $spacing * 3;
+
+    border: $border;
+    min-height: 500px;
+}
+
+footer {
+    padding-top: $spacing * 3;
+    border: $border;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: calc(100% /3);
+}
+
+.border {
+    border: 1px solid black;
+}
