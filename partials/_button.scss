@@ -1,0 +1,41 @@
+.btn-white {
+    padding: 17px 40px;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: $white_color;
+    color: $black_color;
+    border-radius: 10px;
+    margin-top: 16px;
+    border-color: $white_color;
+    border-width: 2px;
+    i {
+        margin-left:10px ;
+    }
+}
+
+.btn-orange {
+    padding: 17px 40px;
+    line-height: 21px;
+    font-size: 18px;
+    background: #ffe7da;
+    border-radius: 10px;
+    color: #f86011;
+    border-color: #ffe7da;
+    i{
+        margin-right: 5px;
+    }
+}
+
+.btn_orange2 {
+    padding: 17px 40px;
+    line-height: 21px;
+    font-size: 18px;
+    background:  #f86011;
+    border-radius: 10px;
+    color: white;
+    border-color: #ffe7da;
+    i{
+        margin-right: 5px;
+    }
+
+}

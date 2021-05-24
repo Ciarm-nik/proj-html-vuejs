@@ -1,0 +1,13 @@
+.hero-section {
+    background-image: url("../imgs/marketing-intro.jpg");
+    width: 100%;
+    background-size: cover;
+    h1 {
+        color: $white_color;
+        font-size: 72px;
+    }
+    p{
+        color: $white_color;
+        font-size: 30px;
+    }
+}
