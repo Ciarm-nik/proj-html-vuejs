@@ -1,0 +1,15 @@
+/* File generici che servono per tutto il sito */
+@import "partials/_variables";
+@import "partials/_mixins";
+@import "partials/_commons";
+
+/* File specifici per varie sezioni del mio sito */
+@import "partials/_header";
+@import "partials/_main";
+@import "partials/_footer";
+
+@import "partials/_nav";
+@import "partials/_button";
+
+
+

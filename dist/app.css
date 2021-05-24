@@ -1,0 +1,8 @@
+/* File generici che servono per tutto il sito */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* File specifici per varie sezioni del mio sito */
