@@ -1,0 +1,46 @@
+.form {
+    background-color: $white_color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    // height: 500px;
+    align-items: center;
+    padding-left: $spacing;
+    padding-right: $spacing;
+    padding-bottom: $spacing*2;
+    img{
+        margin-top: $spacing;
+        margin-bottom: $spacing;
+        width: 80px;
+        border-radius: 50%;
+    }
+    h4 {
+        font-size: 26px;
+        font-weight: 500;
+        font-style: normal;
+    }
+    h3{
+        color: #777777;
+        font-size: 19px;
+        margin-bottom: $spacing;
+    }
+    span{
+        color: $orange_color;
+        margin-bottom: $spacing;
+    } 
+    input {
+        width: 100%;
+        padding: 13px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border-color: #dcdcdc;
+    }
+    .input_3 {
+        margin-bottom: $spacing*2;
+    }
+    .btn_orange2{
+        width: 100%;
+        margin-bottom: $spacing;
+    }
+}
+

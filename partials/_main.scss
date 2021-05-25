@@ -1,3 +1,35 @@
+#section-1-2-3{
+    .box-imgs{
+        justify-content: center;
+        img{
+            max-width: 400px;
+        }
+    }
+    span {
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .descr_right {
+        flex-direction: column;
+        h2{
+            font-size: 54px;
+            margin-bottom: $spacing;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+    }
+    .margin_left{
+        margin-left: $spacing*5;
+    }
+}
+
+
+
+
+
+
 #section-4 {
     h2 {
         text-align: center;
@@ -220,4 +252,8 @@
         font-size: 14px;
         color: $white_color;
     }
+    .col-6 {
+        margin-right: $spacing*2;
+    }
 }
+
