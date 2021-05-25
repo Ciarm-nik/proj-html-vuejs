@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   width: 100%;
   margin: auto;
 }
@@ -163,11 +163,153 @@ footer {
   font-weight: 500;
   margin-bottom: 20px;
 }
+#section-5 h4 {
+  font-size: 54px;
+  font-weight: 700;
+}
 #section-5 p {
   margin-bottom: 40px;
+  font-size: 17px;
 }
 #section-5 .btn_orange2 {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+#section-6 h1 {
+  font-size: 54px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#section-6 p {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.48em;
+  letter-spacing: -0.01em;
+}
+#section-6 img {
+  max-width: 550px;
+}
+
+#section-7 h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+#section-7 p {
+  font-size: 20px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-style: normal;
+}
+#section-7 i {
+  border: 1px solid #f86011;
+  padding: 20px;
+  height: 62px;
+  color: #f86011;
+  margin-right: 5px;
+  border-radius: 7px;
+}
+
+.info-right {
+  margin-bottom: 60px;
+}
+.info-right span {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+#section-8 h3 {
+  text-align: center;
+  font-size: 32;
+  font-weight: 500;
+  font-style: normal;
+}
+#section-8 img {
+  max-width: 180px;
+}
+#section-8 .col-3 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+#section-8 p {
+  text-align: center;
+}
+
+#section-9 .col-6 {
+  justify-content: center;
+}
+#section-9 img {
+  border-radius: 15px;
+  max-width: 500px;
+}
+#section-9 h3 {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+#section-9 h5 {
+  font-size: 20px;
+}
+
+#section-10 h2 {
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+}
+#section-10 .row {
+  align-items: flex-end;
+}
+#section-10 .button_right {
+  display: flex;
+  justify-content: flex-end;
+}
+#section-10 .col-6 {
+  margin-bottom: 60px;
+}
+#section-10 img {
+  max-width: 370px;
+  margin-bottom: 20px;
+}
+#section-10 h3 {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#section-11 {
+  background-color: #010101;
+}
+#section-11 h1 {
+  color: #fefefe;
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+#section-11 p {
+  color: #fefefe;
+  font-size: 30px;
+  text-align: left;
+}
+#section-11 .separator {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+#section-11 .em {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#section-11 h6 {
+  color: #fefefe;
+  font-size: 20px;
+}
+#section-11 .descr {
+  font-size: 14px;
+  color: #fefefe;
 }
 
 nav {
