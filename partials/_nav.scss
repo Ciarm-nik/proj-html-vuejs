@@ -2,21 +2,30 @@ nav {
     .row{
         height: 80px;
         align-items: center;
+        ul {
+            list-style: none;
+            display: flex;
+            // justify-content: center;
+            li{
+                a {
+                    display: inline-block;
+                    padding: 10px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: $black_color;
+                    transition: color 0.3s;
+                  
+                    &:hover{
+                        color: $orange_color;          
+                    }
+                  }
+                  i{
+                      color: $orange_color;
+                  }
+            }
+        }
     }
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    // justify-content: center;
-    li{
-        a {
-            display: inline-block;
-            padding: $spacing;
-            text-decoration: none;
-            font-size: 12px;
-            color: $black_color;
-          }
-    }
-}
+
 

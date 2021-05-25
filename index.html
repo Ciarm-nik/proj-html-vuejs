@@ -15,6 +15,11 @@
 
     <link rel="stylesheet" href="dist/app.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </head>
@@ -30,12 +35,15 @@
                 <div class="col-9">
                     <ul>
                         <li v-for="el in navbarLinks">
-                            <a :href="el. link">
+                            <a :href="el.link">
+                            <i class="fas" :class="el.icon"></i>
                                 {{el.text}}
                             </a>
                         </li>
+                        <li>
+                            <button class="btn-nav">Free Quote</button>
+                        </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
@@ -322,25 +330,64 @@
         </section>
 
         <footer class="container">
-            FOOTER
             <div class="row">
-                <div class="col-4">testo + icone social</div>
-                <div class="col-2">ul</div>
-                <div class="col-2">ul</div>
-                <div class="col-2">ul</div>
-            </div>
-            <div class="row">
-                <div class="col-4">copyright</div>
-                <div class="col-4">call</div>
-                <div class="col-2">email</div>
-            </div>
+                <div class="col-4">
+                    <h3>Grow Your Online Business Strategically, and Improve Customer Retention.</h3>
+                    <div class="social">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </div>
 
+                </div>
+                <div class="col-2">
+                    <h3>Services</h3>
+                    <ul>
+                        <li v-for="services in footerLinks.services">
+                            <a :href="services.link">
+                                {{services.text}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li v-for="resources in footerLinks.resources">
+                            <a :href="resources.link">
+                                {{resources.text}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h3>Company</h3>
+                    <ul>
+                        <li v-for="company in footerLinks.company">
+                            <a :href="company.link">
+                                {{company.text}}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-4">
+                    <a href="#">© 2020 • Avada Consultant • Powered by WordPress</a>
+                </div>
+                <div class="col-4">
+                    <a href="#">Call Us (555) 802-1234</a>
+                </div>
+                <div class="col-2">
+                    <a href="#">info@yourcompany.com</a>
+                </div>
+            </div>
         </footer>
-
     </div>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>

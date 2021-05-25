@@ -1,19 +1,24 @@
 .btn-white {
     padding: 17px 40px;
     font-size: 18px;
-    line-height: 21px;
     background-color: $white_color;
     color: $black_color;
     border-radius: 10px;
     margin-top: 16px;
     border-color: $white_color;
-    border-width: 2px;
+    cursor: pointer;
+    &:hover{
+        background-color: transparent;
+        color: white;
+        border-color: white;
+    }
     i {
         margin-left:10px ;
     }
 }
 
 .btn-orange {
+    cursor: pointer;
     padding: 17px 40px;
     line-height: 21px;
     font-size: 18px;
@@ -21,12 +26,18 @@
     border-radius: 10px;
     color: #f86011;
     border-color: #ffe7da;
+    transition: backgroud 0.3s;
+    &:hover{
+        background-color: $orange_color;
+        color: #ffe7da;
+    }
     i{
         margin-right: 5px;
     }
 }
 
 .btn_orange2 {
+    cursor: pointer;
     padding: 17px 40px;
     line-height: 21px;
     font-size: 18px;
@@ -34,8 +45,25 @@
     border-radius: 10px;
     color: white;
     border-color: #ffe7da;
+    &:hover{
+        background-color: #ffe7da;
+        color: #f86011;
+    }
     i{
         margin-right: 5px;
     }
 
+}
+
+.btn-nav {
+    padding: 8px 20px;
+    background: #ffe7da;
+    border-radius: 10px;
+    color: #f86011;
+    border-color: #ffe7da;
+    transition: backgroud 0.3s;
+    &:hover{
+        background-color: $orange_color;
+        color: #ffe7da;
+    }
 }

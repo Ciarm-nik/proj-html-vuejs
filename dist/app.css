@@ -22,7 +22,6 @@ section {
 
 footer {
   padding-top: 60px;
-  border: 1px solid black;
 }
 
 .border {
@@ -96,15 +95,20 @@ footer {
   background-size: cover;
 }
 .hero-section h1 {
-  color: #fefefe;
+  color: white;
   font-size: 72px;
 }
 .hero-section p {
-  color: #fefefe;
+  color: white;
   font-size: 30px;
 }
 .hero-section .col-6 {
   margin-right: 40px;
+}
+.hero-section .form {
+  margin-bottom: -80px;
+  border-color: rgba(0, 0, 0, 0.08);
+  border-style: solid;
 }
 
 #section-1-2-3 .box-imgs {
@@ -174,6 +178,9 @@ footer {
 #section-5 img {
   width: 300px;
 }
+#section-5 img:hover {
+  opacity: 0.7;
+}
 #section-5 h1 {
   font-size: 54px;
   text-align: center;
@@ -188,6 +195,7 @@ footer {
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 20px;
+  text-align: center;
 }
 #section-5 h4 {
   font-size: 54px;
@@ -309,12 +317,12 @@ footer {
   background-color: #010101;
 }
 #section-11 h1 {
-  color: #fefefe;
+  color: white;
   font-size: 72px;
   margin-bottom: 20px;
 }
 #section-11 p {
-  color: #fefefe;
+  color: white;
   font-size: 30px;
   text-align: left;
 }
@@ -330,50 +338,109 @@ footer {
   margin-bottom: 20px;
 }
 #section-11 h6 {
-  color: #fefefe;
+  color: white;
   font-size: 20px;
 }
 #section-11 .descr {
   font-size: 14px;
-  color: #fefefe;
+  color: white;
 }
 #section-11 .col-6 {
   margin-right: 40px;
+}
+
+footer h3 {
+  font-size: 32;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+footer .social {
+  padding-right: 60px;
+}
+footer i {
+  color: black;
+  padding: 10px;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+footer i:hover {
+  color: #f86011;
+}
+footer .copyright {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+footer .copyright a {
+  text-decoration: none;
+  color: #010101;
+  transition: color 0.3s;
+}
+footer .copyright a:hover {
+  color: #f86011;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  display: inline-block;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #010101;
+  transition: color 0.3s;
+}
+footer ul li a:hover {
+  color: #f86011;
+}
+footer ul li i {
+  color: #f86011;
 }
 
 nav .row {
   height: 80px;
   align-items: center;
 }
-
-ul {
+nav .row ul {
   list-style: none;
   display: flex;
 }
-ul li a {
+nav .row ul li a {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   color: #010101;
+  transition: color 0.3s;
+}
+nav .row ul li a:hover {
+  color: #f86011;
+}
+nav .row ul li i {
+  color: #f86011;
 }
 
 .btn-white {
   padding: 17px 40px;
   font-size: 18px;
-  line-height: 21px;
-  background-color: #fefefe;
+  background-color: white;
   color: #010101;
   border-radius: 10px;
   margin-top: 16px;
-  border-color: #fefefe;
-  border-width: 2px;
+  border-color: white;
+  cursor: pointer;
+}
+.btn-white:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
 }
 .btn-white i {
   margin-left: 10px;
 }
 
 .btn-orange {
+  cursor: pointer;
   padding: 17px 40px;
   line-height: 21px;
   font-size: 18px;
@@ -381,12 +448,18 @@ ul li a {
   border-radius: 10px;
   color: #f86011;
   border-color: #ffe7da;
+  transition: backgroud 0.3s;
+}
+.btn-orange:hover {
+  background-color: #f86011;
+  color: #ffe7da;
 }
 .btn-orange i {
   margin-right: 5px;
 }
 
 .btn_orange2 {
+  cursor: pointer;
   padding: 17px 40px;
   line-height: 21px;
   font-size: 18px;
@@ -395,12 +468,29 @@ ul li a {
   color: white;
   border-color: #ffe7da;
 }
+.btn_orange2:hover {
+  background-color: #ffe7da;
+  color: #f86011;
+}
 .btn_orange2 i {
   margin-right: 5px;
 }
 
+.btn-nav {
+  padding: 8px 20px;
+  background: #ffe7da;
+  border-radius: 10px;
+  color: #f86011;
+  border-color: #ffe7da;
+  transition: backgroud 0.3s;
+}
+.btn-nav:hover {
+  background-color: #f86011;
+  color: #ffe7da;
+}
+
 .form {
-  background-color: #fefefe;
+  background-color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -424,6 +514,9 @@ ul li a {
   color: #777777;
   font-size: 19px;
   margin-bottom: 20px;
+}
+.form i {
+  margin-right: 10px;
 }
 .form span {
   color: #f86011;
