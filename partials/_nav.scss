@@ -5,6 +5,7 @@ nav {
         ul {
             list-style: none;
             display: flex;
+            align-items: center;
             // justify-content: center;
             li{
                 a {
@@ -16,7 +17,9 @@ nav {
                     transition: color 0.3s;
                   
                     &:hover{
-                        color: $orange_color;          
+                        color: $orange_color;
+                    border-bottom: 2px solid $orange_color;
+
                     }
                   }
                   i{

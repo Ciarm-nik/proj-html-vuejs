@@ -349,6 +349,9 @@ footer {
   margin-right: 40px;
 }
 
+footer .col-2 {
+  margin-right: 40px;
+}
 footer h3 {
   font-size: 32;
   padding-right: 80px;
@@ -357,13 +360,13 @@ footer h3 {
 footer .social {
   padding-right: 60px;
 }
-footer i {
+footer .social i {
   color: black;
   padding: 10px;
   margin-bottom: 80px;
   cursor: pointer;
 }
-footer i:hover {
+footer .social i:hover {
   color: #f86011;
 }
 footer .copyright {
@@ -389,12 +392,33 @@ footer ul li a {
   font-size: 18px;
   color: #010101;
   transition: color 0.3s;
+  padding-right: 20px;
+  transition: border-right 0.5s;
 }
 footer ul li a:hover {
   color: #f86011;
+  border-right: 2px solid #f86011;
 }
 footer ul li i {
   color: #f86011;
+}
+
+.help-me i {
+  font-size: 30px;
+  color: white;
+  background-color: #f86011;
+  padding: 15px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.fa-times {
+  position: fixed;
+  right: 33px;
+  color: black;
+  bottom: 232px;
 }
 
 nav .row {
@@ -404,6 +428,7 @@ nav .row {
 nav .row ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 nav .row ul li a {
   display: inline-block;
@@ -415,6 +440,7 @@ nav .row ul li a {
 }
 nav .row ul li a:hover {
   color: #f86011;
+  border-bottom: 2px solid #f86011;
 }
 nav .row ul li i {
   color: #f86011;
@@ -535,4 +561,62 @@ nav .row ul li i {
 .form .btn_orange2 {
   width: 100%;
   margin-bottom: 20px;
+}
+
+.form-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+  position: fixed;
+  bottom: 88px;
+  right: 23px;
+  cursor: pointer;
+  border: 1px solid #eaf0f6;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 240px;
+  padding: 24px 16px 16px;
+}
+.form-help img {
+  width: 50px;
+  border-radius: 50%;
+  margin-top: -43px;
+}
+.form-help p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+}
+
+.demos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  top: 150px;
+  right: 15px;
+  padding: 8px 6px;
+  width: 66px;
+  height: 66px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 -5px 20px 5px rgba(0, 0, 0, 0.15);
+}
+.demos p {
+  font-size: 12px;
+  line-height: 1;
+  text-transform: none;
+  color: #4a5259;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: normal;
+}
+
+.buy {
+  top: 222px;
 }

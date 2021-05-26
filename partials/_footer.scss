@@ -1,5 +1,7 @@
 footer {
-    // height: 500px;
+    .col-2{
+        margin-right: $spacing*2;
+    }
     h3{
         font-size: 32;
         // padding-left: $spacing*3;
@@ -9,16 +11,17 @@ footer {
     .social {
         // padding-left: $spacing*3;
         padding-right: $spacing*3;
-    }
-    i {
-        color: black;
-        padding: 10px;
-        margin-bottom: $spacing*4;
-        cursor: pointer;
-        &:hover{
-            color: $orange_color;
+        i {
+            color: black;
+            padding: 10px;
+            margin-bottom: $spacing*4;
+            cursor: pointer;
+            &:hover{
+                color: $orange_color;
+            }
         }
     }
+   
     .copyright{
         margin-top: $spacing*4;
         margin-bottom: $spacing*4;
@@ -45,9 +48,13 @@ footer {
                 font-size: 18px;
                 color: $black_color;
                 transition: color 0.3s;
-              
+                padding-right: $spacing;
+                transition: border-right 0.5s;
+
                 &:hover{
-                    color: $orange_color;          
+                    color: $orange_color;
+                    border-right: 2px solid $orange_color;
+                    // border-right: 1px;
                 }
               }
               i{
@@ -55,4 +62,25 @@ footer {
               }
         }
     }
+}
+
+.help-me{
+    i{
+       font-size: 30px;
+       color: white;
+       background-color: $orange_color;
+       padding: 15px;
+       border-radius: 50%;
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+    }
+}
+
+.fa-times {
+    position: fixed;
+    right: 33px;
+    color: black;
+    bottom: 232px;
+
 }
