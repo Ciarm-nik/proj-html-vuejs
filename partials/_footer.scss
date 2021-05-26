@@ -1,6 +1,6 @@
 footer {
     .col-2{
-        margin-right: $spacing*2;
+         margin-right: $spacing;
     }
     h3{
         font-size: 32;
@@ -10,8 +10,9 @@ footer {
     }
     .social {
         // padding-left: $spacing*3;
-        padding-right: $spacing*3;
+        padding-right: $spacing;
         i {
+            font-size: 20px;
             color: black;
             padding: 10px;
             margin-bottom: $spacing*4;
@@ -74,6 +75,10 @@ footer {
        position: fixed;
        bottom: 20px;
        right: 20px;
+       cursor: pointer;
+       &:hover{
+           font-size: 33px;
+       }
     }
 }
 

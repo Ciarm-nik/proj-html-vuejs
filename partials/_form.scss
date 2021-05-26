@@ -84,7 +84,7 @@
     position: fixed;
     top: 150px;
     right: 15px;
-    padding: 8px 6px;
+    padding: 10px 6px;
     width: 66px;
     height: 66px;
     cursor: pointer;
@@ -99,10 +99,18 @@
     font-weight: 700;
     font-family: inherit;
     letter-spacing: normal;
+    &:hover{
+        color: #777777;
+    }
+    }
+    &:hover{
+       color: orange;
+       font-size: 22px;
     }
 }
 
 .buy{
     top: 222px;
+    
 }
 

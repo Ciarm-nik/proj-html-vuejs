@@ -1,5 +1,8 @@
 nav {
     .row{
+        img{
+            width: 250px;
+        }
         height: 80px;
         align-items: center;
         ul {
@@ -15,11 +18,15 @@ nav {
                     font-size: 18px;
                     color: $black_color;
                     transition: color 0.3s;
-                  
+                    i{
+                        margin-left: 2px;
+                       &:hover{
+                           color: $orange_color;
+                       }
+                    }           
                     &:hover{
                         color: $orange_color;
                     border-bottom: 2px solid $orange_color;
-
                     }
                   }
                   i{

@@ -111,29 +111,36 @@ footer {
   border-style: solid;
 }
 
-#section-1-2-3 .box-imgs {
+.section-1-2-3 {
+  margin-top: 40px;
+}
+.section-1-2-3 .box-imgs {
   justify-content: center;
 }
-#section-1-2-3 .box-imgs img {
+.section-1-2-3 .box-imgs img {
   max-width: 400px;
 }
-#section-1-2-3 span {
+.section-1-2-3 span {
   margin-left: 10px;
   font-size: 20px;
   font-weight: bold;
 }
-#section-1-2-3 .descr_right {
+.section-1-2-3 .descr_right {
   flex-direction: column;
 }
-#section-1-2-3 .descr_right h2 {
+.section-1-2-3 .descr_right h2 {
   font-size: 54px;
   margin-bottom: 20px;
 }
-#section-1-2-3 .descr_right p {
+.section-1-2-3 .descr_right p {
   margin-bottom: 20px;
 }
-#section-1-2-3 .margin_left {
+.section-1-2-3 .margin_left {
   margin-left: 100px;
+}
+
+#section-1 .col-6, #section-3 .col-6 {
+  margin-right: 100px;
 }
 
 #section-4 h2 {
@@ -143,12 +150,12 @@ footer {
 #section-4 p {
   text-align: center;
   font-size: 24px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .box-img {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 180px;
 }
 .box-img img {
   width: 170px;
@@ -164,6 +171,7 @@ footer {
 .info-img img {
   width: 50px;
   border-radius: 50px;
+  margin-right: -45px;
 }
 .info-img h5 {
   font-size: 22px;
@@ -257,12 +265,15 @@ footer {
 
 #section-8 h3 {
   text-align: center;
-  font-size: 32;
+  font-size: 32px;
   font-weight: 500;
   font-style: normal;
 }
 #section-8 img {
   max-width: 180px;
+}
+#section-8 img:hover {
+  max-width: 182px;
 }
 #section-8 .col-3 {
   flex-direction: column;
@@ -288,6 +299,9 @@ footer {
   font-size: 20px;
 }
 
+#section-10 {
+  margin-bottom: 60px;
+}
 #section-10 h2 {
   font-size: 50px;
   font-weight: 500;
@@ -314,6 +328,8 @@ footer {
 }
 
 #section-11 {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #010101;
 }
 #section-11 h1 {
@@ -350,7 +366,7 @@ footer {
 }
 
 footer .col-2 {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 footer h3 {
   font-size: 32;
@@ -358,9 +374,10 @@ footer h3 {
   padding-bottom: 20px;
 }
 footer .social {
-  padding-right: 60px;
+  padding-right: 20px;
 }
 footer .social i {
+  font-size: 20px;
   color: black;
   padding: 10px;
   margin-bottom: 80px;
@@ -412,6 +429,10 @@ footer ul li i {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  cursor: pointer;
+}
+.help-me i:hover {
+  font-size: 33px;
 }
 
 .fa-times {
@@ -425,6 +446,9 @@ nav .row {
   height: 80px;
   align-items: center;
 }
+nav .row img {
+  width: 250px;
+}
 nav .row ul {
   list-style: none;
   display: flex;
@@ -437,6 +461,12 @@ nav .row ul li a {
   font-size: 18px;
   color: #010101;
   transition: color 0.3s;
+}
+nav .row ul li a i {
+  margin-left: 2px;
+}
+nav .row ul li a i:hover {
+  color: #f86011;
 }
 nav .row ul li a:hover {
   color: #f86011;
@@ -599,7 +629,7 @@ nav .row ul li i {
   position: fixed;
   top: 150px;
   right: 15px;
-  padding: 8px 6px;
+  padding: 10px 6px;
   width: 66px;
   height: 66px;
   cursor: pointer;
@@ -615,6 +645,13 @@ nav .row ul li i {
   font-weight: 700;
   font-family: inherit;
   letter-spacing: normal;
+}
+.demos p:hover {
+  color: #777777;
+}
+.demos:hover {
+  color: orange;
+  font-size: 22px;
 }
 
 .buy {

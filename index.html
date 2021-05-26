@@ -30,14 +30,17 @@
         <nav class="container">
             <div class="row">
                 <div class="col-3">
-                    <img src="imgs/avada-marketing-logo-2x-200x37.png" alt="">
+                    <img src="imgs/avada-marketing-logo-2x-400x74.png" alt="">
                 </div>
                 <div class="col-9">
                     <ul>
                         <li v-for="el in navbarLinks">
                             <a :href="el.link">
-                            <i class="fas" :class="el.icon"></i>
+                            <!-- <i class="fas fa-chevron-circle-down"></i> -->
+                            <!-- <i class="fas fa-phone-alt"></i> -->
+                            <!-- <i class="fas fa-chevron-down"></i> -->
                                 {{el.text}}
+                            <i class="fas" :class="el.icon"></i>
                             </a>
                         </li>
                         <li>
@@ -63,7 +66,7 @@
                             <img src="imgs/marketing-consultant-expert.jpg" alt="">
                             <h4>Richard Madsen</h4>
                             <h3>Marketing Consultant Expert</h3>
-                            <span><i class="fas fa-phone"></i>(555) 802-1234</span>
+                            <span><i class="fas fa-phone-alt"></i></i>(555) 802-1234</span>
                             <input type="text" placeholder="Your name*">
                             <input type="text" placeholder="Your Email*">
                             <input class="input_3" type="text" placeholder="Your Phone Number*">
@@ -76,11 +79,11 @@
         </header>
 
         <main class="container">
-            <section id="section-1-2-3">
+            <section id="section-1"  class="section-1-2-3">
                 <div class="row">
                     <div class="col-6">
                         <div class="flex box-imgs">
-                            <img src="imgs/taxi_demo-600x450.jpg" alt="">
+                            <img src="images/digital-marketing-strategy.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
@@ -98,7 +101,7 @@
                 </div>
 
             </section>
-            <section id="section-1-2-3">
+            <section id="section-2" class="section-1-2-3">
                 <div class="row">
                     <div class="col-6 margin_left">
                         <div class="flex descr_right">
@@ -114,17 +117,17 @@
                     </div>
                     <div class="col-4">
                         <div class="flex box-imgs">
-                            <img src="imgs/taxi_demo-600x450.jpg" alt="">
+                            <img src="images/strategic-marketing-plan.png" alt="">
                         </div>
                     </div>
                 </div>
 
             </section>
-            <section id="section-1-2-3">
+            <section id="section-3" class="section-1-2-3">
                 <div class="row">
                     <div class="col-6">
                         <div class="flex box-imgs">
-                            <img src="imgs/taxi_demo-600x450.jpg" alt="">
+                            <img src="images/digital-marketing-strategy.png" alt="">
                         </div>
                     </div>
                     <div class="col-4">
@@ -316,7 +319,7 @@
                             <img src="imgs/marketing-consultant-expert.jpg" alt="">
                             <h4>Richard Madsen</h4>
                             <h3>Marketing Consultant Expert</h3>
-                            <span><i class="fas fa-phone"></i>(555) 802-1234</span>
+                            <span><i class="fas fa-phone-alt"></i>(555) 802-1234</span>
                             <input type="text" placeholder="Your name*">
                             <input type="text" placeholder="Your Email*">
                             <input class="input_3" type="text" placeholder="Your Phone Number*">
@@ -329,10 +332,10 @@
 
         </section>
 
-        <footer class="container">
+        <footer id="footer" class="container">
             <div class="row">
-                <div class="col-4">
-                    <h3>Grow Your Online Business Strategically, and Improve Customer Retention.</h3>
+                <div class="col-6">
+                    <h3>Grow Your Online Business <br> Strategically, and Improve <br> Customer Retention.</h3>
                     <div class="social">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <i class="fa fa-facebook-square" aria-hidden="true"></i>
@@ -377,7 +380,7 @@
                 <div class="col-4">
                     <a href="#">© 2020 • Avada Consultant • Powered by WordPress</a>
                 </div>
-                <div class="col-4">
+                <div class="col-2">
                     <a href="#">Call Us (555) 802-1234</a>
                 </div>
                 <div class="col-2">

@@ -5,6 +5,7 @@ new Vue({
             // Dropdown menu Home
             text: "Home",
             link: "#",
+            icon:"fa-chevron-down",
             childs: [
                 {
                     text: "1",
@@ -23,27 +24,28 @@ new Vue({
         {
             // Dropdown menu Services
             text: "Services",
-            link: "#"
+            link: "#section-1",
+            icon:"fa-chevron-down",
         },
         {
             text: "Why Us",
-            link: "#"
+            link: "#section-5"
         },
         {
             text: "Case Studies",
-            link: "#"
+            link: "#section-9"
         },
         {
             text: "About",
-            link: "#"
+            link: "#section-11"
         },
         {
             text: "Blog",
-            link: "#"
+            link: "#footer"
         },
         // Icon + numero(text)
         {
-            icon: "fa-phone",
+            icon: "fa-phone-alt",
             text: "(555) 802-1234",
             link: ""
         },
