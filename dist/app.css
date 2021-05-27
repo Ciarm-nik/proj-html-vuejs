@@ -317,7 +317,6 @@ footer {
 
 #section-10 {
   background-color: #f8f8f9;
-  margin-bottom: 60px;
 }
 #section-10 h2 {
   font-size: 50px;
@@ -332,7 +331,7 @@ footer {
   justify-content: flex-end;
 }
 #section-10 .col-6 {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 #section-10 img {
   max-width: 370px;

@@ -216,7 +216,7 @@
 
 #section-10 {
     background-color: $gray_color;
-    margin-bottom: $spacing*3;
+    // padding-bottom: $spacing*3;
     h2 {
         font-size: 50px;
         font-weight: 500;
@@ -231,7 +231,7 @@
         justify-content: flex-end;
     }
     .col-6 {
-        margin-bottom: $spacing*3;
+        padding-bottom: $spacing*3;
     }
     img {
         max-width: 370px;
