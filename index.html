@@ -36,11 +36,11 @@
                     <ul>
                         <li v-for="el in navbarLinks">
                             <a :href="el.link">
-                            <!-- <i class="fas fa-chevron-circle-down"></i> -->
-                            <!-- <i class="fas fa-phone-alt"></i> -->
-                            <!-- <i class="fas fa-chevron-down"></i> -->
+                                <!-- <i class="fas fa-chevron-circle-down"></i> -->
+                                <!-- <i class="fas fa-phone-alt"></i> -->
+                                <!-- <i class="fas fa-chevron-down"></i> -->
                                 {{el.text}}
-                            <i class="fas" :class="el.icon"></i>
+                                <i class="fas" :class="el.icon"></i>
                             </a>
                         </li>
                         <li>
@@ -79,7 +79,7 @@
         </header>
 
         <main class="container">
-            <section id="section-1"  class="section-1-2-3">
+            <section id="section-1" class="section-1-2-3">
                 <div class="row">
                     <div class="col-6">
                         <div class="flex box-imgs">
@@ -177,19 +177,25 @@
                 <h1>Trusted by Leading Organisations</h1>
                 <div class="row">
                     <div class="col-4">
-                        <img src="imgs/case-studies-1-200x225.jpg" alt="">
+                        <div class="overlay">
+                            <img src="imgs/case-studies-1-200x225.jpg" alt="">
+                        </div>
                         <h3>How Spaces attracted five million visitors by improving the content</h3>
                         <h4>200%</h4>
                         <p>Higher revenue from digital</p>
                     </div>
                     <div class="col-4">
+                        <div class="overlay">
                         <img src="imgs/case-studies-4-200x225.jpg" alt="">
+                        </div>
                         <h3>Creativity helped Hemisferio to increase their brand reach </h3>
                         <h4>10x</h4>
                         <p>Sales increase with the same ad spend</p>
                     </div>
                     <div class="col-4">
-                        <img src="imgs/case-studies-6-200x225.jpg" alt="">
+                        <div class="overlay">
+                            <img src="imgs/case-studies-6-200x225.jpg" alt="">
+                        </div>
                         <h3>How DigitalBox used AI-powered data insight to boost sales</h3>
                         <h4>3-year</h4>
                         <p>Partnership with Avada Consultant</p>
@@ -392,7 +398,8 @@
                 <i class="fas fa-comment-alt"></i>
                 <div class="form-help">
                     <img src="imgs/marketing-expert-cta.png" alt="">
-                    <p>This is a free HubSpot live chat. You can create your own chat flows and engage your customers with Avada & HubSpot!</p>
+                    <p>This is a free HubSpot live chat. You can create your own chat flows and engage your customers
+                        with Avada & HubSpot!</p>
                 </div>
             </div>
             <i class="fas fa-times"></i>
